@@ -1,5 +1,5 @@
 {
-    "name": "silvershop/category-index",
+    "name": "silvershop-suite/category-index",
     "description": "Derived, queryable flat index of product-to-category membership (primary + ancestors + secondary) for fast recursive category filtering in SilverShop.",
     "type": "silverstripe-vendormodule",
     "keywords": ["silverstripe", "silvershop", "ecommerce", "category", "index", "filtering", "search"],

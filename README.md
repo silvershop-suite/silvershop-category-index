@@ -1,4 +1,4 @@
-# silvershop/category-index
+# silvershop-suite/category-index
 
 A derived, read-only flat index of **product → effective category** membership for
 [SilverShop](https://github.com/silvershop/silvershop-core) (SilverStripe CMS 6), so category filtering is a single
@@ -43,7 +43,7 @@ skips the `AllChildCategoryIDs()` tree walk entirely. On a core without that hoo
 ## Installation
 
 ```bash
-composer require silvershop/category-index
+composer require silvershop-suite/category-index
 ```
 
 Then run a dev/build (`/dev/build?flush=1`) to add the `EffectiveCategories` join table, and backfill the index once:
